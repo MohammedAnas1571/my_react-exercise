@@ -6,7 +6,7 @@ const Todo = () => {
     const [tasks,setTasks] = useState([
         
     ]);
-    const [itemCount, setItemCount] = useState(0);
+    const [itemCount, setItemCount] = useState(0)
      useEffect(()=>{
        setItemCount(tasks.length)
     })

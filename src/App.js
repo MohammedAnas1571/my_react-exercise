@@ -1,23 +1,15 @@
-
-import './App.css';
-import React from 'react';
-import Products from './components/products/Products';
-
-
+import React, { useState, useEffect } from 'react';
+import './App.css'
+import Todo from './components/ReactRouter/Todoapp/Todo';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Container } from 'react-bootstrap';
-
 
 function App() {
-
-  return(
- <div className='App'>
-  <Container>
- <Products/>
- </Container>
- </div>
-   
-  )
+ 
+  return (
+    <div className='App'>
+    <Todo/>
+    </div>
+  );
 }
 
 export default App;

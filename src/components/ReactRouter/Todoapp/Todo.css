@@ -52,7 +52,10 @@
     float: right;
 
 
-}.list-task{
+}.list-task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
     font-size: 1.25em;
     font-weight: bold;
     font-style: italic;
@@ -60,11 +63,11 @@
     background-color: black;
     border: 1px solid yellow;
     border-radius: 5px;
-    padding:0.5em;
+    padding: 0.5em;
     margin: 1em;
+  }
   
-   
-
-
-
-}
+  .checked {
+    text-decoration: line-through;
+  }
+  
